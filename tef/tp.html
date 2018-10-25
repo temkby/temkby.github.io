@@ -1,1 +1,168 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="ru">
+	<link rel="stylesheet" type="text/css" href="files/css/main-page.css">
+	<style type="text/css">
+		body {
+			background-image: url(files/img/img.png);
+		}
+    
+    
+header {
+	background-color: #2B2B2B;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 960px;
+	height: 50px;
+	border: 3px solid black;
+}
+
+.header-left {
+	width: 450px;
+	height: 60px;
+	float: left;
+}
+
+.header-right {
+	width: 450px;
+	height: 60px;
+	float: right;
+}
+
+.logo {
+	color: #00FF0D;
+	font-size: 30px;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+a.menu {
+	float: left;
+	color: #D2D2D2;
+	font-size: 20px;
+	padding-left: 25px;
+	padding-top: 12px;
+	text-decoration: none;
+}
+
+a.ip {
+	color: yellow;
+	float: right;
+	font-size: 20px;
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	border: 3px solid red;
+	border-radius: inherit;
+}
+
+.content {
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.first-container-left {
+	margin: 0 auto;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: white;
+	width: 580px;
+	height: 300px;
+	border: 5px solid grey;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.first-container-right {
+	margin: 0 auto;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: white;
+	width: 300px;
+	height: 180px;
+	border: 5px solid grey;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.second-container-right {
+		margin: 0 auto;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: white;
+	width: 300px;
+	height: 320px;
+	border: 5px solid grey;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.vk_groups {
+	float: right;
+}
+	</style>
+	<title>Hello</title>
+</head>
+<body>
+	<header>
+
+		<div class="header-left">
+			<div class="logo">RoyalWorld</div>
+		</div>
+
+		<div class="header-right">
+			<a class="menu" href="">Главная</a>
+			<a class="menu" href="">Правила</a>
+			<a class="menu" href="">Донат</a>
+
+			<a class="ip" href="#" onclick="prompt('Скопируй айпи нашего сервер , 1.8-1.13','play.rw.kz')">Наш Айпи</a>
+		</div>
+
+	</header>
+
+	<div class="content">
+		
+		<div class="first-container-left">
+			<p>Новости</p>
+			<hr>
+
+			<p>Текст (от лат. textus — ткань; сплетение, сочетание) — зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность символов.</p>
+		</div>
+
+		<div class="first-container-right">
+			<p>Мониторинг</p>
+			<hr>
+
+			<p>Онлайн 228/228</p>
+		</div>
+
+		<div class="second-container-left">
+			
+		</div>
+
+		<div class="second-container-right">
+			<p>Мы Вконтакте</p>
+			<hr>
+
+			<script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+				<!-- VK Widget -->
+				<div class="vk_groups"></div>
+					<script type="text/javascript">
+						VK.Widgets.Group("vk_groups", {mode: 3, color3: '59B750'}, 170189200);
+					</script>
+				</div>
+	</div>
+</body>
+</html>
